@@ -1,0 +1,44 @@
+#intro {
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  .info {
+    padding-top: 120px;
+    display: grid;
+    gap: 80px;
+
+    .tags {
+      display: flex;
+      gap: 16px;
+
+      justify-content: center;
+    }
+  }
+  #caretDoubleDown {
+    position: absolute;
+    width: 32px;
+    bottom: 57px;
+    left: calc(100vw - 50vw);
+  }
+}
+.header {
+  display: grid;
+  place-items: center;
+
+  .avatar {
+    margin-bottom: 56px;
+  }
+  .text {
+    text-align: center;
+
+    .subtitle {
+      margin-bottom: 8px;
+    }
+
+    .title-lg {
+      margin-bottom: 20px;
+    }
+  }
+}

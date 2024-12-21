@@ -1,0 +1,57 @@
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-card {
+  padding: 4px;
+}
