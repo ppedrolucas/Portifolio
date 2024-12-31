@@ -1,0 +1,29 @@
+@media (320px <= width <= 871px) {
+  #intro {
+    height: auto;
+    .info {
+      padding-top: 72px;
+      .tags {
+        flex-wrap: wrap;
+      }
+    }
+    #caretDoubleDown {
+      display: none;
+    }
+  }
+  #projects {
+    height: auto;
+    padding-bottom: 4.5rem;
+    .acervo {
+      grid-template-columns: 1fr;
+    }
+  }
+  #services {
+    height: auto;
+    padding-inline: 1rem;
+    .cards {
+      flex-direction: column;
+      justify-self: center;
+    }
+  }
+}

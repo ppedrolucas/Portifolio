@@ -24,14 +24,14 @@
   --inconsolata-font: "Inconsolata", sans-serif;
   --maven-pro-font: "Maven Pro", sans-serif;
 
-  --title-lg: bold 56px/120% var(--asap-font);
-  --title-md: bold 24px/120% var(--asap-font);
-  --title-sm: bold 16px/120% var(--asap-font);
+  --title-lg: bold 3.5rem/120% var(--asap-font);
+  --title-md: bold 1.5rem/120% var(--asap-font);
+  --title-sm: bold 1rem/120% var(--asap-font);
 
-  --subtitle: 400 20px/120% var(--inconsolata-font);
+  --subtitle: 400 1.25rem/120% var(--inconsolata-font);
 
-  --text-md: 400 16px/140% var(--maven-pro-font);
-  --text-sm: 400 14px/140% var(--maven-pro-font);
+  --text-md: 400 1rem/140% var(--maven-pro-font);
+  --text-sm: 400 0.875rem/140% var(--maven-pro-font);
 }
 
 body {
@@ -47,6 +47,7 @@ a {
 .container {
   max-width: 1040px;
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 span {

@@ -17,8 +17,9 @@
 }
 
 .links {
-  margin-top: 58px;
+  margin-block: 58px;
   place-content: center;
+  padding-inline: 1rem;
 
   .link {
     width: 400px;
@@ -27,6 +28,7 @@
     align-items: center;
     gap: 12px;
     padding: 20px;
+    margin-inline: 1rem;
     border-radius: 8px;
     background-color: var(--gray-300);
     border: 1.5px solid var(--gray-300);
