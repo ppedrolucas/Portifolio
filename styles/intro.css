@@ -16,12 +16,6 @@
       justify-content: center;
     }
   }
-  #caretDoubleDown {
-    position: absolute;
-    width: 32px;
-    bottom: 57px;
-    left: calc(100vw - 50vw);
-  }
 }
 .header {
   display: grid;
